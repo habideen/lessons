@@ -3,7 +3,7 @@
  * You can use it to test your skills at traversing the DOM using JavaScript.
  */
 
-//target first backback article element
+//module to target forms in all backpack
 function updateLength(pack, side) {
   const everydayLeftLen = document.querySelector(`#${pack} .${side}length`);
   everydayLeftLen.addEventListener("submit", function (event) {
