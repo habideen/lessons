@@ -56,3 +56,18 @@ newArticle.setAttribute("id", "everyday");
 newArticle.innerHTML = content;
 
 main.append(newArticle);
+
+document
+  .querySelectorAll(".packprop")
+  .forEach((item) => console.log(item.innerHTML));
+
+document.querySelectorAll(".packprop").forEach((item, index) => {
+  if (index % 2 == 0) {
+    item.style.backgroundColor = "Red";
+  }
+});
+
+document.querySelector(".backpack__name").style.color = "Cyan";
+
+document.querySelector(".backpack__features > .backpack__age").style.color =
+  "Blue";
