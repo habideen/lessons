@@ -26,9 +26,11 @@ function updateLength(pack, side) {
   });
 }
 
+//update labels in #pack01 on form submit
 updateLength("pack01", "left");
 updateLength("pack01", "right");
 
+//update labels in #pack01 on form submit
 updateLength("pack02", "left");
 updateLength("pack02", "right");
 
