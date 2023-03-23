@@ -28,9 +28,26 @@ class Backpack {
     this.lidOpen = lidOpen;
   }
   // Add methods like normal functions:
+  newName(name) {
+    this.name = name;
+  }
+
+  newVolume(volume) {
+    this.volume = volume;
+  }
+
+  newColor(color) {
+    this.color = color;
+  }
+
+  newPocketNum(pocketNum) {
+    this.pocketNum = pocketNum;
+  }
+
   toggleLid(lidStatus) {
     this.lidOpen = lidStatus;
   }
+
   newStrapLength(lengthLeft, lengthRight) {
     this.strapLength.left = lengthLeft;
     this.strapLength.right = lengthRight;
